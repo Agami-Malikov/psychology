@@ -115,6 +115,14 @@ a {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.about-inner-btn:hover {
+  background-color: #f6dddf;
+  color: #2f3030;
 }
 
 .education {
@@ -124,7 +132,8 @@ a {
 }
 
 .education-title,
-.work-title {
+.work-title,
+.contacts-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,17 +203,16 @@ a {
   align-items: center;
 }
 
-.work-content-imgs {
-}
+/* .work-content-imgs { } */
 
 .work-content-imgs img {
   width: 100%;
 }
 
-.accordion {
-  /* width: 50%; */
-  /* margin-left: auto; */
-}
+/* .accordion {
+  width: 50%;
+  margin-left: auto;
+} */
 
 .accordion-item {
   border-top: 1px solid #a58d79;
@@ -243,7 +251,6 @@ a {
   transition: transform 0.3s ease;
 }
 
-/* Скрытое содержимое */
 .accordion-content {
   max-height: 0;
   overflow: hidden;
@@ -261,3 +268,30 @@ a {
   color: #2f3030;
 }
 
+.call-up {
+  padding: 80px 0 20px 0;
+  background-color: #f6dddf;
+  border-bottom: 1px solid #a58d79;
+}
+
+.call-up-text {
+  font-size: 25px;
+  font-style: italic;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #dddddc;
+  border-radius: 30px;
+}
+
+.price {
+  padding: 20px 0;
+  border-bottom: 1px solid #a58d79;
+  /* margin-bottom: 100px; */
+
+}
+
+.contacts {
+  background-color: #f6dddf;
+  padding: 20px 0;
+}
